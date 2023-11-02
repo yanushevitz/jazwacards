@@ -11,7 +11,7 @@ services:
   db:
     image: mysql:8
     environment:
-      - MYSQL_ROOT_PASSWORD=judasz
+      - MYSQL_ROOT_PASSWORD=<insert>
     restart: always
     ports:
       - "3307:3306"
